@@ -1,0 +1,58 @@
+.card {
+    margin: 30px 0px;
+    background-color: #2C3034;
+    border-color: #64ffda;
+}
+
+.eyepassword {
+    display: flex;
+}
+
+.eyepassword input {
+    height: 35px;
+}
+
+.eyepassword button {
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 35px;
+    margin: 0px 0px 50px 0px;
+}
+
+.or {
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.taillebutton {
+    height: 60px;
+    width: 144px;
+    font-size: 30px;
+}
+
+.card input {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: none;
+}
+
+.card input:focus {
+    background-color: #2C3034;
+    border: 1px solid white;
+    color: #fff;
+}
+
+form button {
+    color: #64ffda;
+    border-color: #2C3034;
+}
+
+form button:hover {
+    background-color: #64ffda;
+    color: #444;
+    border-color: #64ffda;
+}
